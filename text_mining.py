@@ -1,4 +1,3 @@
-### Libraries
 import pandas as pd
 import sqlalchemy as sql
 from sqlalchemy import text
@@ -9,25 +8,27 @@ from nltk import stem
 from nltk.corpus import stopwords
 import collections
 
+
 df_schema = {
     "token": Text,
     "frequency": Integer
 }
 
+
 class textMining:
     def __init__(self, table, column, by_city=None):
         """
         Method that runs at the first time when the object is created. Here the object is able to
-        connect to a database (DBMS: MySQL) creating the engine and connection to it.
+        connect to a database (DBMS: MySQL) creating the engine and connection. Finally it creates
+        the dataframe with specific text column.
         
         Arguments:
-            > table: string, name of the user for the database connection;
-            > column: string, password of the user for the database connection;
+            > table: string, name of the table to connect to the database;
+            > column: string, name of the column to tokenize;
+            > by_city: string, name of the city to filter the data from the database.
         
         Output:
-            > None.
-            
-        Note: in any moment the connection to the database is closed. For that is the method "disconnectMysql".
+            > dataframe with one column.
         """
         try:
             self._engine = sql.create_engine("mysql+pymysql://root:admin@localhost:3306/AirbnbDB")
@@ -113,6 +114,19 @@ class textMining:
         self.stopWords = stopWords
 
     def getAllTokes(self, table, column, if_exists, by_city):
+        """
+        Method to upload dataframe to the database creating a table with two columns; 
+        1) word, and 2) number of repetitions.
+        
+        Arguments:
+            > table: string, name of the table to connect to the database;
+            > column: string, name of the column to tokenize;
+            > if_exists: string, how to behave if the table already exists;
+            > by_city: string, name of the city to add in the table.
+        
+        Output:
+            > None.
+        """
         frequencyDict = dict(collections.Counter(self.allTokens))
         df = pd.DataFrame.from_dict(frequencyDict, orient='index').reset_index()
         df.rename(columns={'index':'token', 0:'frequency'}, inplace=True)

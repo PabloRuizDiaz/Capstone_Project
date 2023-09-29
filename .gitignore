@@ -167,3 +167,5 @@ database/
 /week_2 - Data Handeling & MLA Steps.pdf
 *.drawio
 /.vscode
+/PCA Workshop.ipynb
+/data_cleansing_toDB.py
