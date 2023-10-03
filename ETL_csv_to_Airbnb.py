@@ -13,7 +13,7 @@ states = ['North Carolina','Texas','Montana','Florida','Massachusetts','Illinois
         'Ohio','Texas','Colorado','Texas','Hawaii','New Jersey','California','Tennessee',
         'Louisiana','New York','New Jersey','California','California','Oregon','Rhode Island',
         'Oregon','California','California','California','California','California',
-        'Washington','Minneapolis','Washington']
+        'Washington','Minnesota','Washington']
 
 tables_name = ['listings_detailed','reviews_detailed','calendar']
 
