@@ -1714,6 +1714,38 @@
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <style>
         <style-rule element='mark'>
+          <encoding attr='color' field='[none:state:nk]' type='palette'>
+            <map to='#7719e3'>
+              <bucket>&quot;California&quot;</bucket>
+            </map>
+            <map to='#7719e3'>
+              <bucket>&quot;Texas&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;Florida&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;Hawaii&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;Louisiana&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;Nevada&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;Rhode Island&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;Tennessee&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;Washington&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:state:nk]&#10;[none:Forecast Indicator:nk]' type='palette'>
             <map to='#7719e3'>
               <multibucket>
@@ -1834,38 +1866,6 @@
                 <bucket>&quot;Washington&quot;</bucket>
                 <bucket>&quot;Estimate&quot;</bucket>
               </multibucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:state:nk]' type='palette'>
-            <map to='#7719e3'>
-              <bucket>&quot;California&quot;</bucket>
-            </map>
-            <map to='#7719e3'>
-              <bucket>&quot;Texas&quot;</bucket>
-            </map>
-            <map to='#d5d5d5'>
-              <bucket>&quot;Florida&quot;</bucket>
-            </map>
-            <map to='#d5d5d5'>
-              <bucket>&quot;Hawaii&quot;</bucket>
-            </map>
-            <map to='#d5d5d5'>
-              <bucket>&quot;Louisiana&quot;</bucket>
-            </map>
-            <map to='#d5d5d5'>
-              <bucket>&quot;Nevada&quot;</bucket>
-            </map>
-            <map to='#d5d5d5'>
-              <bucket>&quot;New York&quot;</bucket>
-            </map>
-            <map to='#d5d5d5'>
-              <bucket>&quot;Rhode Island&quot;</bucket>
-            </map>
-            <map to='#d5d5d5'>
-              <bucket>&quot;Tennessee&quot;</bucket>
-            </map>
-            <map to='#d5d5d5'>
-              <bucket>&quot;Washington&quot;</bucket>
             </map>
           </encoding>
           <encoding attr='color' field='[none:city:nk]' type='palette'>
@@ -6649,8 +6649,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='27' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='29' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98003' id='3' is-fixed='true' is-scaled='1' param='D:/Maestrias, Diplomaturas, Cursos/TSoM - Data Analyst/Capstone_Project/Header-Airbnb_Logo_History.png' type-v2='bitmap' w='98889' x='963' y='2151'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6705,8 +6705,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='19' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='21' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='75883' id='3' is-fixed='true' is-scaled='1' param='D:/Maestrias, Diplomaturas, Cursos/TSoM - Data Analyst/Capstone_Project/relationships-1.jpg' type-v2='bitmap' w='67407' x='15481' y='3072'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6764,8 +6764,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='28' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='30' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='89094' id='3' is-fixed='true' is-scaled='1' param='D:/Maestrias, Diplomaturas, Cursos/TSoM - Data Analyst/Capstone_Project/By Geography.png' type-v2='bitmap' w='61259' x='2296' y='4147'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6820,8 +6820,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='29' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='31' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='97849' id='3' is-fixed='true' name='Fluctuation of incomes (forecast)' w='99259' x='370' y='461'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6890,8 +6890,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97500' id='29' param='vert' type-v2='layout-flow' w='98814' x='593' y='1250'>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97500' id='31' param='vert' type-v2='layout-flow' w='98814' x='593' y='1250'>
                 <zone fixed-size='280' h='100000' id='7' is-fixed='true' name='Fluctuation of incomes (trend)' w='100000' x='0' y='0'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6974,8 +6974,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97500' id='29' param='vert' type-v2='layout-flow' w='98814' x='593' y='1250'>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97500' id='31' param='vert' type-v2='layout-flow' w='98814' x='593' y='1250'>
                 <zone fixed-size='280' h='97500' id='3' is-fixed='true' name='Location vs Prices for inversions' w='98814' x='593' y='1250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7083,8 +7083,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='46' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97500' id='45' param='vert' type-v2='layout-flow' w='98814' x='593' y='1250'>
+            <zone h='100000' id='48' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97500' id='47' param='vert' type-v2='layout-flow' w='98814' x='593' y='1250'>
                 <zone fixed-size='280' h='97500' id='3' is-fixed='true' name='Services in the US' w='57333' x='593' y='1250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7145,8 +7145,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97500' id='28' param='vert' type-v2='layout-flow' w='98814' x='593' y='1250'>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97500' id='30' param='vert' type-v2='layout-flow' w='98814' x='593' y='1250'>
                 <zone h='7988' id='11' type-v2='dashboard-object' w='12148' x='87185' y='1075'>
                   <button action='tabdoc:goto-sheet window-id=&quot;{A5196DDE-71C5-4633-B5B3-23AF3225F967}&quot;' button-type='text'>
                     <button-visual-state>
@@ -7219,8 +7219,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='11' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='13' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='97500' id='3' is-fixed='true' name='Room types&apos; reviews by city' w='98814' x='593' y='1250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7268,8 +7268,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='13' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='15' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='97500' id='3' is-fixed='true' is-scaled='1' param='D:/Maestrias, Diplomaturas, Cursos/TSoM - Data Analyst/Capstone_Project/s960_thank_you_sticky_note.jpg' type-v2='bitmap' w='98814' x='593' y='1250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7322,8 +7322,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='28' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='30' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='97542' id='3' type-v2='text' w='98814' x='593' y='1229'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#555555' fontname='Arial' fontsize='16'>Research Topic Title</run>
@@ -7382,7 +7382,7 @@
                   <story-point caption='By Location' captured-sheet='Dashboard By Location' id='5' />
                   <story-point caption='Market in the U.S.' captured-sheet='Dashboard Market in the U.S.' id='4' />
                   <story-point caption='Incomes across 2023 by State' captured-sheet='Dashboard Incomes across 2023 by State (forecast)' id='6' />
-                  <story-point caption='Accuracy of Type of Room by Cities' captured-sheet='Dashboard Room types&apos; reviews' id='7' />
+                  <story-point caption='Accuracy of Listings by Cities' captured-sheet='Dashboard Room types&apos; reviews' id='7' />
                   <story-point caption='Review Location vs Price by States' captured-sheet='Dashboard Price vs Cities vs Availability' id='9' />
                   <story-point caption='Our Hosts and Travelers' captured-sheet='Dashboard By Clients' id='10' />
                   <story-point caption='Names of Listings' captured-sheet='Word clouds - listings’ names' id='11' />

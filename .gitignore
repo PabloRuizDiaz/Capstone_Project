@@ -162,10 +162,8 @@ cython_debug/
 
 # Folders and files
 database/
-/First_looking_about_data.twb
 /week_1 - Introduction.pdf
 /week_2 - Data Handeling & MLA Steps.pdf
 *.drawio
 /.vscode
-/PCA Workshop.ipynb
-/data_cleansing_toDB.py
+/FinalProject.pdf
